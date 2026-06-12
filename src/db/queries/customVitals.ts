@@ -1,4 +1,4 @@
-// PulseSense — Custom Vitals Queries
+// VitaTrack — Custom Vitals Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 

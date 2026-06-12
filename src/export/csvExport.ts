@@ -1,4 +1,4 @@
-// PulseSense — CSV Export Generator
+// VitaTrack — CSV Export Generator
 // Generates CSV strings for each export type
 
 import { VITAL_HEADERS, formatVitalRawValue } from '../utils/vitalFormatters';

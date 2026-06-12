@@ -1,4 +1,4 @@
-// PulseSense — Vitals Log Screen
+// VitaTrack — Vitals Log Screen
 
 import React, { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import {

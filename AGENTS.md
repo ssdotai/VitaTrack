@@ -1,4 +1,4 @@
-# PulseSense — Project Context
+# VitaTrack — Project Context
 
 ## Expo
 Read the exact versioned docs at https://docs.expo.dev/versions/v54.0.0/ before writing any code.
@@ -36,7 +36,7 @@ Read the exact versioned docs at https://docs.expo.dev/versions/v54.0.0/ before 
 - Touch interaction on chart data points (tap/hold to see exact value/date)
 
 ## Play Store v1 Prep (completed by assistant)
-- Updated `app.json`: added `description`, fixed package name to `com.pulsesense.app`, removed stray `android.description`
+- Updated `app.json`: added `description`, fixed package name to `com.VitaTrack.app`, removed stray `android.description`
 - Created `eas.json` with production build profile (app-bundle)
 - Fixed `@types/jest` version mismatch (v30→v29.5)
 - Added `*.aab` / `*.apk` to `.gitignore`

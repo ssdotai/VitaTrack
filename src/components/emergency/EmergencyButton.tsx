@@ -1,4 +1,4 @@
-// PulseSense — Emergency Button (Home Screen)
+// VitaTrack — Emergency Button (Home Screen)
 // Large pulsing red CTA button with animated outer ring
 // Now with enhanced press haptic simulation and dramatic entrance
 

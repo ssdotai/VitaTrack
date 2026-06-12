@@ -1,4 +1,4 @@
-// PulseSense — Onboarding: Welcome Screen
+// VitaTrack — Onboarding: Welcome Screen
 
 import React from 'react';
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
@@ -39,7 +39,7 @@ export function WelcomeScreen({ onNext }: WelcomeScreenProps) {
               <AppLogo size={72} />
             </View>
           </View>
-          <Text style={styles.appName}>PulseSense</Text>
+          <Text style={styles.appName}>VitaTrack</Text>
         </View>
 
         <View style={styles.content}>

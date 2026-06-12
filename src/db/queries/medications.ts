@@ -1,4 +1,4 @@
-// PulseSense — Medications Queries
+// VitaTrack — Medications Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 

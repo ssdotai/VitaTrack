@@ -1,4 +1,4 @@
-// PulseSense — Home Screen
+// VitaTrack — Home Screen
 
 import React, { useMemo, useState, useCallback } from 'react';
 import {

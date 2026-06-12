@@ -1,4 +1,4 @@
-// PulseSense — Settings Queries
+// VitaTrack — Settings Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 

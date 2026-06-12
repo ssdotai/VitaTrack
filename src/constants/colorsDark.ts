@@ -1,4 +1,4 @@
-// PulseSense — Dark Mode Color System
+// VitaTrack — Dark Mode Color System
 // These override the light colors when dark mode is active
 
 export const colorsDark = {

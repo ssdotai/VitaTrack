@@ -1,4 +1,4 @@
-// PulseSense — Date Input Hook (Auto-Slash for DD/MM/YYYY)
+// VitaTrack — Date Input Hook (Auto-Slash for DD/MM/YYYY)
 // Automatically inserts slashes as user types digits
 
 import { useState, useCallback } from 'react';

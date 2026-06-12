@@ -1,4 +1,4 @@
-// PulseSense — Insight Card Component
+// VitaTrack — Insight Card Component
 // Displays a single health insight with icon, title, message, and severity badge
 
 import React, { useEffect } from 'react';

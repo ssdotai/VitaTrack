@@ -360,10 +360,10 @@ export function HealthConnectionScreen() {
         <Text style={[styles.infoTitle, { color: c.textPrimary }]}>About Health Sync</Text>
         <Text style={[styles.infoText, { color: c.textSecondary }]}>
           {platform === 'apple_health'
-            ? 'Sync your vitals with Apple Health. Import heart rate, blood pressure, weight, and steps from HealthKit. Export PulseSense vitals back to Apple Health. Data stays private on your device.'
+            ? 'Sync your vitals with Apple Health. Import heart rate, blood pressure, weight, and steps from HealthKit. Export VitaTrack vitals back to Apple Health. Data stays private on your device.'
             : platform === 'health_connect'
-            ? 'Sync your vitals with Google Health Connect. Import heart rate, blood pressure, weight, and steps. Export PulseSense vitals back to Health Connect. Requires the Health Connect app on your Android device.'
-            : 'Connect to your device\'s health platform to sync vitals between PulseSense and Apple Health or Google Health Connect.'}
+            ? 'Sync your vitals with Google Health Connect. Import heart rate, blood pressure, weight, and steps. Export VitaTrack vitals back to Health Connect. Requires the Health Connect app on your Android device.'
+            : 'Connect to your device\'s health platform to sync vitals between VitaTrack and Apple Health or Google Health Connect.'}
         </Text>
       </View>
     </ScrollView>

@@ -1,4 +1,4 @@
-// PulseSense — Alerts Screen
+// VitaTrack — Alerts Screen
 
 import React, { useState, useCallback, useMemo } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';

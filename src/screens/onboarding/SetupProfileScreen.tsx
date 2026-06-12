@@ -1,4 +1,4 @@
-// PulseSense — Onboarding: Setup Profile Screen
+// VitaTrack — Onboarding: Setup Profile Screen
 // Form for name, DOB, sex, blood group (minimal for onboarding)
 
 import React, { useState, useMemo } from 'react';

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PulseSense",
-    "slug": "pulsesense",
+    "name": "VitaTrack",
+    "slug": "VitaTrack",
     "version": "1.0.0",
     "description": "Offline health companion for vitals, medications, and emergency triage. 100% private, no account required.",
     "orientation": "portrait",
@@ -16,11 +16,11 @@
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "PulseSense needs camera access to set your profile photo.",
-        "NSPhotoLibraryUsageDescription": "PulseSense needs photo library access to set your profile photo.",
-        "NSLocationWhenInUseUsageDescription": "PulseSense uses your location to show your address on the emergency action screen.",
-        "NSHealthShareUsageDescription": "PulseSense reads your health data to track vitals and provide health insights.",
-        "NSHealthUpdateUsageDescription": "PulseSense writes your vital recordings to Apple Health."
+        "NSCameraUsageDescription": "VitaTrack needs camera access to set your profile photo.",
+        "NSPhotoLibraryUsageDescription": "VitaTrack needs photo library access to set your profile photo.",
+        "NSLocationWhenInUseUsageDescription": "VitaTrack uses your location to show your address on the emergency action screen.",
+        "NSHealthShareUsageDescription": "VitaTrack reads your health data to track vitals and provide health insights.",
+        "NSHealthUpdateUsageDescription": "VitaTrack writes your vital recordings to Apple Health."
       }
     },
     "android": {
@@ -34,9 +34,11 @@
         "CAMERA",
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION",
-        "POST_NOTIFICATIONS"
+        "POST_NOTIFICATIONS",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ],
-      "package": "com.pulsesense.app"
+      "package": "com.vitatrack.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -55,12 +57,17 @@
         "expo-build-properties",
         {
           "android": {
-            "compileSdkVersion": 34,
-            "targetSdkVersion": 34,
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
             "minSdkVersion": 26
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e91156b0-d43d-4423-8bb6-05dfb7a3cf1f"
+      }
+    }
   }
 }

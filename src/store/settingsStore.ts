@@ -1,4 +1,4 @@
-// PulseSense — Settings Store (Zustand)
+// VitaTrack — Settings Store (Zustand)
 
 import { create } from 'zustand';
 

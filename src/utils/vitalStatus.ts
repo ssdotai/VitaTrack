@@ -1,4 +1,4 @@
-// PulseSense — Vital Status Threshold Checker
+// VitaTrack — Vital Status Threshold Checker
 // Returns 'normal' | 'warning' | 'danger' based on adult reference ranges
 
 export type VitalStatus = 'normal' | 'warning' | 'danger' | 'unknown';

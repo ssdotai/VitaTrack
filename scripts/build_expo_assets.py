@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 def build_assets():
-    assets_dir = r"E:\code\PROJECTS\PulseSense\assets"
+    assets_dir = r"E:\code\PROJECTS\VitaTrack\assets"
     
     # 1. Main App Icon (icon.png)
     # Size: 1024x1024, Opaque

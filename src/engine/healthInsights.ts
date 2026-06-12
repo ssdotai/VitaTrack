@@ -1,4 +1,4 @@
-// PulseSense — Health Insights Engine
+// VitaTrack — Health Insights Engine
 // Analyzes vital logs for trends and generates natural-language insight messages
 // Pure TypeScript — no external dependencies, no side effects
 

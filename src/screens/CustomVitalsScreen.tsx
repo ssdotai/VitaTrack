@@ -1,4 +1,4 @@
-// PulseSense — Custom Vitals Management Screen
+// VitaTrack — Custom Vitals Management Screen
 
 import React, { useState, useCallback } from 'react';
 import { View, Text, FlatList, TouchableOpacity, TextInput, StyleSheet, Alert } from 'react-native';

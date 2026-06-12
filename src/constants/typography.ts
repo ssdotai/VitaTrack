@@ -1,4 +1,4 @@
-// PulseSense — Typography System
+// VitaTrack — Typography System
 // Syne (bold geometric display) + Outfit (warm clean body)
 // Based on UI Design Guide v1.0
 

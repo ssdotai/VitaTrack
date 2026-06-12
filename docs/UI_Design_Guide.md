@@ -1,4 +1,4 @@
-# PulseSense — UI Design Guide
+# VitaTrack — UI Design Guide
 **Version:** 1.0 | Design System Reference
 
 ---

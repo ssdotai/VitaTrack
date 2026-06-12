@@ -1,4 +1,4 @@
-// PulseSense — Add Emergency Contact Screen
+// VitaTrack — Add Emergency Contact Screen
 
 import React, { useState } from 'react';
 import { View, Text, TextInput, ScrollView, TouchableOpacity, StyleSheet, Alert } from 'react-native';

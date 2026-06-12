@@ -108,7 +108,7 @@ export const SplashScreen = React.memo(function SplashScreen({ onFinish }: Splas
             <AppLogo size={64} />
           </View>
         </View>
-        <Text style={styles.splashTitle}>PulseSense</Text>
+        <Text style={styles.splashTitle}>VitaTrack</Text>
         <Animated.Text style={[styles.splashTagline, { opacity: taglineOpacity }]}>
           Your personal health companion
         </Animated.Text>

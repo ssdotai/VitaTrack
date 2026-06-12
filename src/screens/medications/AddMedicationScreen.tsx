@@ -1,4 +1,4 @@
-// PulseSense — Add Prescription Screen
+// VitaTrack — Add Prescription Screen
 
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, ScrollView, StyleSheet, Alert } from 'react-native';

@@ -104,7 +104,7 @@ describe('exportService', () => {
       await sharePdf('file:///test.pdf');
       expect(shareAsync).toHaveBeenCalledWith('file:///test.pdf', {
         mimeType: 'application/pdf',
-        dialogTitle: 'Share PulseSense Report',
+        dialogTitle: 'Share VitaTrack Report',
       });
     });
   });

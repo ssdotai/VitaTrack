@@ -1,4 +1,4 @@
-// PulseSense — Database Hook
+// VitaTrack — Database Hook
 // Opens SQLite DB, runs migrations, seeds settings, and hydrates stores
 
 import { useEffect, useState, useCallback } from 'react';

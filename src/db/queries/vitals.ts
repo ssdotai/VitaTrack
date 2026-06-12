@@ -1,4 +1,4 @@
-// PulseSense — Vitals Logging Queries
+// VitaTrack — Vitals Logging Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 

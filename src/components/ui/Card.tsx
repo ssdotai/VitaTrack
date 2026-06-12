@@ -1,4 +1,4 @@
-// PulseSense — Card Component
+// VitaTrack — Card Component
 
 import React, { useEffect } from 'react';
 import { View, ViewStyle, TouchableOpacity } from 'react-native';

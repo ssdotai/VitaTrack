@@ -1,4 +1,4 @@
-// PulseSense — Profile Queries
+// VitaTrack — Profile Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 

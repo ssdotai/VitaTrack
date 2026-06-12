@@ -1,4 +1,4 @@
-// PulseSense — Database Schema (SQLite)
+// VitaTrack — Database Schema (SQLite)
 // All CREATE TABLE statements in dependency order
 
 export const SCHEMA_VERSION = 2;

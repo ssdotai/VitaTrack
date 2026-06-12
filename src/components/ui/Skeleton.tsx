@@ -1,4 +1,4 @@
-// PulseSense — Skeleton Loading Component
+// VitaTrack — Skeleton Loading Component
 // Reanimated pulsing placeholder for async data loading states
 // Usage: <Skeleton.Box width={200} height={20} /> or <Skeleton.Circle size={48} /> or <Skeleton.Text lines={3} />
 

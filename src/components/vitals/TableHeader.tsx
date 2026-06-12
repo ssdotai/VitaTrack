@@ -1,4 +1,4 @@
-// PulseSense — Table Header for History Screen
+// VitaTrack — Table Header for History Screen
 // Sticky header row
 
 import React from 'react';

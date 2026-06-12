@@ -1,4 +1,4 @@
-// PulseSense — Profile Store (Zustand)
+// VitaTrack — Profile Store (Zustand)
 
 import { create } from 'zustand';
 import type { ProfileRow } from '../db/queries/profile';

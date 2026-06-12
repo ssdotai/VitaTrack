@@ -1,4 +1,4 @@
-// PulseSense — Age Calculator Hook
+// VitaTrack — Age Calculator Hook
 
 import { useState, useEffect } from 'react';
 import { calculateAge } from '../utils/dateUtils';

@@ -1,4 +1,4 @@
-// PulseSense — Action Step Component
+// VitaTrack — Action Step Component
 // Numbered step for emergency action lists
 
 import React from 'react';

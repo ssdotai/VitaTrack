@@ -1,4 +1,4 @@
-// PulseSense — Severity Banner
+// VitaTrack — Severity Banner
 // Full-width colored banner for emergency action screen
 
 import React from 'react';

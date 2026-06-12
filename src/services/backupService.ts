@@ -1,4 +1,4 @@
-// PulseSense — Backup & Restore Service
+// VitaTrack — Backup & Restore Service
 // Exports all DB data as JSON for backup, imports JSON to restore
 
 import * as Sharing from 'expo-sharing';
@@ -50,7 +50,7 @@ export async function backupDatabase(): Promise<string> {
   }
 
   const backup: BackupData = {
-    appName: 'PulseSense',
+    appName: 'VitaTrack',
     schemaVersion: SCHEMA_VERSION,
     exportedAt: new Date().toISOString(),
     tables,
@@ -60,7 +60,7 @@ export async function backupDatabase(): Promise<string> {
   if (json.length > 50 * 1024 * 1024) {
     throw new Error('Backup too large (exceeds 50MB limit)');
   }
-  const fileName = `PulseSense_Backup_${formatTimestamp()}.json`;
+  const fileName = `VitaTrack_Backup_${formatTimestamp()}.json`;
   const file = new File(Paths.cache, fileName);
   file.write(json);
 
@@ -71,7 +71,7 @@ export async function shareBackup(uri: string): Promise<void> {
   if (await Sharing.isAvailableAsync()) {
     await Sharing.shareAsync(uri, {
       mimeType: 'application/json',
-      dialogTitle: 'Share PulseSense Backup',
+      dialogTitle: 'Share VitaTrack Backup',
     });
   } else {
     throw new Error('Sharing is not available on this device');
@@ -106,8 +106,8 @@ export async function restoreDatabase(): Promise<{ success: boolean; message: st
   }
 
   // Validate backup format
-  if (!backup.appName || backup.appName !== 'PulseSense') {
-    return { success: false, message: 'Invalid backup file: not a PulseSense backup' };
+  if (!backup.appName || backup.appName !== 'VitaTrack') {
+    return { success: false, message: 'Invalid backup file: not a VitaTrack backup' };
   }
   if (!backup.tables || typeof backup.tables !== 'object') {
     return { success: false, message: 'Invalid backup file: missing tables data' };

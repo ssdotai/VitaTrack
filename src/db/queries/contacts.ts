@@ -1,4 +1,4 @@
-// PulseSense — Emergency Contacts Queries
+// VitaTrack — Emergency Contacts Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 

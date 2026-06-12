@@ -1,4 +1,4 @@
-// PulseSense — Alert Store (Zustand)
+// VitaTrack — Alert Store (Zustand)
 
 import { create } from 'zustand';
 import type { AlertRow } from '../db/queries/emergency';

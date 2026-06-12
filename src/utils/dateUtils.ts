@@ -1,4 +1,4 @@
-// PulseSense — Date Utilities
+// VitaTrack — Date Utilities
 // DD/MM/YYYY format for display, ISO for storage/sorting
 
 export function calculateAge(dob: string): string {

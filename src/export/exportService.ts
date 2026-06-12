@@ -1,4 +1,4 @@
-// PulseSense — Export Service
+// VitaTrack — Export Service
 // Orchestrates: data fetch → HTML template build → expo-print → expo-sharing → cleanup
 
 import * as Print from 'expo-print';
@@ -142,7 +142,7 @@ export async function sharePdf(uri: string): Promise<void> {
   if (await Sharing.isAvailableAsync()) {
     await Sharing.shareAsync(uri, {
       mimeType: 'application/pdf',
-      dialogTitle: 'Share PulseSense Report',
+      dialogTitle: 'Share VitaTrack Report',
     });
   } else {
     throw new Error('Sharing is not available on this device');
@@ -201,7 +201,7 @@ export async function generateCsv(options: ExportOptions): Promise<string> {
       throw new Error(`Unknown export type: ${options.type}`);
   }
 
-  const fileName = `PulseSense_${options.type}_${Date.now()}.csv`;
+  const fileName = `VitaTrack_${options.type}_${Date.now()}.csv`;
   const csvFile = new File(Paths.cache, fileName);
   csvFile.write('\uFEFF' + csvContent);
   return csvFile.uri;
@@ -211,7 +211,7 @@ export async function shareCsv(uri: string): Promise<void> {
   if (await Sharing.isAvailableAsync()) {
     await Sharing.shareAsync(uri, {
       mimeType: 'text/csv',
-      dialogTitle: 'Share PulseSense CSV Report',
+      dialogTitle: 'Share VitaTrack CSV Report',
     });
   } else {
     throw new Error('Sharing is not available on this device');

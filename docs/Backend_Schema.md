@@ -1,4 +1,4 @@
-# PulseSense — Backend Schema
+# VitaTrack — Backend Schema
 **Version:** 1.0 | **Database:** SQLite via expo-sqlite | **Date Format:** DD/MM/YYYY (stored as TEXT)
 
 ---

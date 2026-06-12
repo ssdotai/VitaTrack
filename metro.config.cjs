@@ -1,4 +1,4 @@
-// PulseSense — Metro bundler configuration
+// VitaTrack — Metro bundler configuration
 // Required for expo-sqlite web support (wa-sqlite .wasm asset)
 
 const { getDefaultConfig } = require('@expo/metro-config');

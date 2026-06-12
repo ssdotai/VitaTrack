@@ -1,4 +1,4 @@
-// PulseSense — Condition Card Component
+// VitaTrack — Condition Card Component
 // Tappable card with left-colored border per severity
 
 import React from 'react';

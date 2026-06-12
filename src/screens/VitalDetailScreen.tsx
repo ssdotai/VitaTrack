@@ -1,4 +1,4 @@
-// PulseSense — Vital Detail Screen
+// VitaTrack — Vital Detail Screen
 // Shows all readings from a single vital log entry with sparkline trends
 
 import React, { useState, useCallback, useMemo } from 'react';

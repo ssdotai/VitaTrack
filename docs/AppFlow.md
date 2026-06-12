@@ -1,4 +1,4 @@
-# PulseSense — App Flow
+# VitaTrack — App Flow
 **Version:** 1.0
 
 ---
@@ -89,7 +89,7 @@ Each screen has a full-screen illustration, heading, subtext, and a Next/Get Sta
 ```
 ┌─────────────────────────────────┐
 │  Screen 1: Welcome              │
-│  Logo + "PulseSense"            │
+│  Logo + "VitaTrack"            │
 │  "Your personal health          │
 │   companion and emergency guide"│
 │                      [Get Started]
@@ -122,7 +122,7 @@ Each screen has a full-screen illustration, heading, subtext, and a Next/Get Sta
 ┌─────────────────────────────────┐
 │  Screen 5: You're Ready         │
 │  Checkmark animation            │
-│  "PulseSense is set up"         │
+│  "VitaTrack is set up"         │
 │  "Your data stays on this       │
 │   device — always."             │
 │               [Go to Home →]    │

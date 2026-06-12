@@ -1,4 +1,4 @@
-// PulseSense — Medications List Screen
+// VitaTrack — Medications List Screen
 
 import React, { useState, useCallback, useMemo } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Alert } from 'react-native';

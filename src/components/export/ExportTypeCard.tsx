@@ -1,4 +1,4 @@
-// PulseSense — Export Type Card Component
+// VitaTrack — Export Type Card Component
 // Selectable card for export type picker with Ionicons
 
 import React from 'react';

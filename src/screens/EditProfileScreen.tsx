@@ -1,4 +1,4 @@
-// PulseSense — Edit Profile Screen
+// VitaTrack — Edit Profile Screen
 
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, ScrollView, StyleSheet, Alert, Platform, Image } from 'react-native';

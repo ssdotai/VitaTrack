@@ -1,4 +1,4 @@
-// PulseSense — Profile Screen
+// VitaTrack — Profile Screen
 
 import React, { useState, useCallback, useMemo } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Alert, Linking, Platform, Image } from 'react-native';

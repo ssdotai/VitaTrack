@@ -1,4 +1,4 @@
-// PulseSense — Vital Status Badge
+// VitaTrack — Vital Status Badge
 // Colored dot + label (Normal / Borderline / High-Low / Unknown)
 
 import React from 'react';

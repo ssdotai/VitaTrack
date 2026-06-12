@@ -1,15 +1,15 @@
-# PulseSense — System Architecture
+# VitaTrack — System Architecture
 **Version:** 1.0 | **Scope:** V1 (fully local, no backend server)
 
 ---
 
 ## 1. Architecture Overview
 
-PulseSense V1 is a **fully local, offline-first mobile application**. There is no cloud backend, no API server, and no user account system. All data is stored, processed, and exported on-device.
+VitaTrack V1 is a **fully local, offline-first mobile application**. There is no cloud backend, no API server, and no user account system. All data is stored, processed, and exported on-device.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    PulseSense App                        │
+│                    VitaTrack App                        │
 │                                                         │
 │  ┌──────────────┐   ┌───────────────┐   ┌───────────┐  │
 │  │  UI Layer    │   │  Logic Layer  │   │ Data Layer│  │
@@ -225,7 +225,7 @@ return results sorted by severity
 App Start
 │
 ▼
-Open SQLite database (pulsesense.db)
+Open SQLite database (VitaTrack.db)
 │
 ▼
 PRAGMA foreign_keys = ON
@@ -267,14 +267,14 @@ Check profile table for rows
 When cloud is added in V2, the architecture extends to:
 
 ```
-PulseSense App (local)
+VitaTrack App (local)
 │
 ├── Local SQLite (still primary)
 │
 └── Sync Queue
     │
     ▼
-PulseSense API (Node.js / FastAPI)
+VitaTrack API (Node.js / FastAPI)
     │
     ├── PostgreSQL (cloud data)
     ├── Auth (JWT or Supabase)

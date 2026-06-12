@@ -1,8 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 import os, math
 
-logo_path = r"E:\code\PROJECTS\PulseSense\assets\pulse sense logo2.png"
-out_dir = r"E:\code\PROJECTS\PulseSense\docs"
+logo_path = r"E:\code\PROJECTS\VitaTrack\assets\pulse sense logo2.png"
+out_dir = r"E:\code\PROJECTS\VitaTrack\docs"
 
 logo = Image.open(logo_path).convert("RGBA")
 
@@ -55,7 +55,7 @@ except:
     tag_font = title_font
     chip_font = title_font
 
-draw.text((50, 140), "PulseSense", fill=(255, 255, 255, 255), font=title_font)
+draw.text((50, 140), "VitaTrack", fill=(255, 255, 255, 255), font=title_font)
 draw.text((50, 210), "Offline Vital Log & Triage", fill=(160, 210, 230, 255), font=tag_font)
 
 # chips

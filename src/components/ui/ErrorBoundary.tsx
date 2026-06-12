@@ -1,4 +1,4 @@
-// PulseSense — Error Boundary Component
+// VitaTrack — Error Boundary Component
 // Catches rendering errors and shows a fallback UI with retry
 
 import React, { Component, ErrorInfo } from 'react';

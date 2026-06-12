@@ -1,4 +1,4 @@
-// PulseSense — Emergency Check Screen
+// VitaTrack — Emergency Check Screen
 // Symptom checklist by category with optional quick vitals
 // Updated with proper icons and typography
 

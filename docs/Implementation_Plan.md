@@ -1,4 +1,4 @@
-# PulseSense — Implementation Plan
+# VitaTrack — Implementation Plan
 **Version:** 1.0 | Build Order for V1
 
 ---
@@ -19,7 +19,7 @@ Build order follows a **bottom-up, demo-able at each phase** strategy:
 **Goal:** Working app shell, navigation, DB connected, design system in place.
 
 ### Tasks
-- [ ] `npx create-expo-app pulsesense --template`
+- [ ] `npx create-expo-app VitaTrack --template`
 - [ ] Install all dependencies (see TRD section 1)
 - [ ] Set up folder structure (see TRD section 2)
 - [ ] Configure React Navigation (Stack + Bottom Tabs)
@@ -238,14 +238,14 @@ Build order follows a **bottom-up, demo-able at each phase** strategy:
 - [ ] Write app store description emphasizing differentiation (local-first, offline, rule-based triage, not a diagnosis tool)
 - [ ] `eas build` for APK/IPA
 - [ ] Internal testing via TestFlight (iOS) or internal track (Android)
-- [ ] Add disclaimer: "PulseSense provides general health guidance and emergency checklists. It does not diagnose medical conditions. Always consult a qualified healthcare professional."
+- [ ] Add disclaimer: "VitaTrack provides general health guidance and emergency checklists. It does not diagnose medical conditions. Always consult a qualified healthcare professional."
 
 ---
 
 ## Dependency Install Reference
 
 ```bash
-npx create-expo-app pulsesense
+npx create-expo-app VitaTrack
 
 npx expo install expo-sqlite
 npx expo install expo-image-picker

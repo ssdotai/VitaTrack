@@ -1,4 +1,4 @@
-// PulseSense — Vital Input Field
+// VitaTrack — Vital Input Field
 // Number input with label, unit, and live status badge
 
 import React from 'react';

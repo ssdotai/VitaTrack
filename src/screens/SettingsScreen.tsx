@@ -1,4 +1,4 @@
-// PulseSense — Settings Screen
+// VitaTrack — Settings Screen
 
 import React, { useState, useEffect, useMemo } from 'react';
 import {
@@ -456,7 +456,7 @@ export function SettingsScreen({ navigation }: any) {
       <Text style={[sc.sectionTitle, { marginTop: spacing.space6, color: activeColors.textSecondary }]}>Privacy & Legal</Text>
       <TouchableOpacity
         style={[sc.linkRow, { backgroundColor: activeColors.surface }]}
-        onPress={() => Linking.openURL('https://solarisxd.github.io/PulseSense/').catch((e) => console.warn('Failed to open URL:', e))}
+        onPress={() => Linking.openURL('').catch((e) => console.warn('Failed to open URL:', e))}
       >
         <View style={sc.linkRowLeft}>
           <Ionicons name="shield-checkmark-outline" size={20} color={activeColors.textSecondary} style={{ marginRight: spacing.space3 }} />
@@ -488,7 +488,7 @@ export function SettingsScreen({ navigation }: any) {
       <Text style={[sc.sectionTitle, { marginTop: spacing.space6, color: activeColors.textSecondary }]}>System</Text>
       <TouchableOpacity
         style={[sc.linkRow, { backgroundColor: activeColors.surface }]}
-        onPress={() => Alert.alert('Check for Updates', 'PulseSense v1.0.0 — You are on the latest version.')}
+        onPress={() => Alert.alert('Check for Updates', 'VitaTrack v1.0.0 — You are on the latest version.')}
       >
         <View style={sc.linkRowLeft}>
           <Ionicons name="cloud-download-outline" size={20} color={activeColors.textSecondary} style={{ marginRight: spacing.space3 }} />
@@ -605,10 +605,10 @@ export function SettingsScreen({ navigation }: any) {
 
       <Text style={[sc.sectionTitle, { marginTop: spacing.space6, color: activeColors.textSecondary }]}>About</Text>
       <View style={[sc.aboutCard, { backgroundColor: activeColors.surface }]}>
-        <Text style={[sc.aboutText, { color: activeColors.textPrimary }]}>PulseSense v1.0.0</Text>
+        <Text style={[sc.aboutText, { color: activeColors.textPrimary }]}>VitaTrack v1.0.0</Text>
         <Text style={[sc.aboutPrivacy, { color: activeColors.textSecondary }]}>
           All data stored locally on this device only. No data is sent to any server.
-          PulseSense provides general health guidance and emergency checklists. It does not
+          VitaTrack provides general health guidance and emergency checklists. It does not
           diagnose medical conditions. Always consult a qualified healthcare professional.
         </Text>
       </View>
@@ -682,12 +682,12 @@ export function SettingsScreen({ navigation }: any) {
             </View>
             <ScrollView style={{ maxHeight: 350 }}>
               <Text style={[sc.modalBody, { color: activeColors.textSecondary }]}>
-                <Text style={{ fontWeight: '700', color: activeColors.danger }}>PulseSense is not a medical device.</Text>{'\n\n'}
+                <Text style={{ fontWeight: '700', color: activeColors.danger }}>VitaTrack is not a medical device.</Text>{'\n\n'}
                 It has not been cleared or approved by the FDA, MHRA, or any other regulatory body. It does not provide a medical diagnosis, treatment recommendation, or clinical decision support.{'\n\n'}
                 The emergency triage engine uses a static, rule-based checklist for informational guidance only. It may produce false positives, false negatives, or be inappropriate for your specific condition.{'\n\n'}
                 <Text style={{ fontWeight: '700', color: activeColors.danger }}>If you believe you are experiencing a medical emergency, call your local emergency services immediately (e.g., 911, 112, 999). Do not delay seeking professional medical attention based on information provided by this app.</Text>{'\n\n'}
-                All health data entered into and exported from PulseSense is for personal reference and informational use only. You should always consult a qualified healthcare professional before making any medical decisions, changing a treatment plan, or interpreting your vital signs.{'\n\n'}
-                By using PulseSense, you acknowledge that:{'\n'}
+                All health data entered into and exported from VitaTrack is for personal reference and informational use only. You should always consult a qualified healthcare professional before making any medical decisions, changing a treatment plan, or interpreting your vital signs.{'\n\n'}
+                By using VitaTrack, you acknowledge that:{'\n'}
                 • The app is a voluntary self-tracking and informational tool.{'\n'}
                 • No healthcare provider–patient relationship is established.{'\n'}
                 • The developer(s) assume no liability for any actions taken or not taken based on the app's output.{'\n'}
@@ -713,16 +713,16 @@ export function SettingsScreen({ navigation }: any) {
             <Text style={[sc.modalTitle, { color: activeColors.textPrimary }]}>Terms of Service</Text>
             <ScrollView style={{ maxHeight: 300 }}>
               <Text style={[sc.modalBody, { color: activeColors.textSecondary }]}>
-                By using PulseSense you agree to the following terms:{'\n\n'}
-                1. PulseSense is a health information organizer and emergency checklist tool.
+                By using VitaTrack you agree to the following terms:{'\n\n'}
+                1. VitaTrack is a health information organizer and emergency checklist tool.
                 It does NOT provide medical diagnosis, treatment, or advice.{'\n\n'}
                 2. Always consult a qualified healthcare professional for medical decisions.
-                Never disregard professional advice due to something read in PulseSense.{'\n\n'}
-                3. You are responsible for the accuracy of data you enter. PulseSense does
+                Never disregard professional advice due to something read in VitaTrack.{'\n\n'}
+                3. You are responsible for the accuracy of data you enter. VitaTrack does
                 not verify medical information.{'\n\n'}
                 4. In emergency situations, call your local emergency services immediately.
-                Do not rely solely on PulseSense guidance.{'\n\n'}
-                5. PulseSense is provided "as is" without warranty of any kind. The developers
+                Do not rely solely on VitaTrack guidance.{'\n\n'}
+                5. VitaTrack is provided "as is" without warranty of any kind. The developers
                 shall not be liable for any damages arising from use of this software.
               </Text>
             </ScrollView>

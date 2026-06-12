@@ -1,4 +1,4 @@
-// PulseSense — Default Settings Seeds
+// VitaTrack — Default Settings Seeds
 
 export interface SeedSetting {
   key: string;

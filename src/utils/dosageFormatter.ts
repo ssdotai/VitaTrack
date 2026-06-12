@@ -1,4 +1,4 @@
-// PulseSense — Dosage Formatting
+// VitaTrack — Dosage Formatting
 // Converts morning/afternoon/night booleans to '1-0-1' display format
 
 export function formatDosage(morning: number, afternoon: number, night: number): string {

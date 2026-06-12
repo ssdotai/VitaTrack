@@ -1,4 +1,4 @@
-// PulseSense — Database Connection Manager
+// VitaTrack — Database Connection Manager
 // Opens SQLite DB once, runs migrations on first open, returns cached instance thereafter
 
 import * as SQLite from 'expo-sqlite';
@@ -50,7 +50,7 @@ export async function getDB(): Promise<SQLite.SQLiteDatabase> {
   // share a single open + migrate sequence.
   if (!dbPromise) {
     dbPromise = (async () => {
-      const db = await SQLite.openDatabaseAsync('pulsesense.db');
+      const db = await SQLite.openDatabaseAsync('VitaTrack.db');
 
       if (!migrationsRan) {
         if (!initPromise) {

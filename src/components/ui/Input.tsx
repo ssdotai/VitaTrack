@@ -1,4 +1,4 @@
-// PulseSense — Input Field Component
+// VitaTrack — Input Field Component
 // Standard text input with label, error state, and optional unit badge
 
 import React, { useState } from 'react';

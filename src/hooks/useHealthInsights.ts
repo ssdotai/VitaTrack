@@ -1,4 +1,4 @@
-// PulseSense — Health Insights Hook
+// VitaTrack — Health Insights Hook
 // Loads vitals from a 14-day window and generates insights via the health engine
 
 import { useState, useCallback } from 'react';

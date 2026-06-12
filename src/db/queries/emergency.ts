@@ -1,4 +1,4 @@
-// PulseSense — Emergency Event Queries (symptom_events, rule_triggers, alerts)
+// VitaTrack — Emergency Event Queries (symptom_events, rule_triggers, alerts)
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 import type { SymptomInput, RuleResult } from '../../constants/rules';

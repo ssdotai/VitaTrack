@@ -1,4 +1,4 @@
-// PulseSense — Onboarding: Features Screen
+// VitaTrack — Onboarding: Features Screen
 
 import React from 'react';
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
@@ -37,7 +37,7 @@ export function FeaturesScreen({ onNext, onBack }: FeaturesScreenProps) {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.header}>
-          <Text style={styles.heading}>What PulseSense does</Text>
+          <Text style={styles.heading}>What VitaTrack does</Text>
           <Text style={styles.subtext}>Everything you need to manage your health, in one place.</Text>
         </View>
 

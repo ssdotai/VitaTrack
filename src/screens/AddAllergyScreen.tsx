@@ -1,4 +1,4 @@
-// PulseSense — Add Allergy Screen
+// VitaTrack — Add Allergy Screen
 
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, ScrollView, StyleSheet, Alert } from 'react-native';

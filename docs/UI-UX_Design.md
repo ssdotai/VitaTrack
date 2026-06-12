@@ -1,11 +1,11 @@
-# PulseSense — UI/UX Design
+# VitaTrack — UI/UX Design
 **Version:** 1.0
 
 ---
 
 ## 1. Design Philosophy
 
-**Clinical but human.** PulseSense should feel trustworthy and calm — not sterile like a hospital form, not playful like a fitness app. The visual language communicates authority (for emergencies) and warmth (for daily logging).
+**Clinical but human.** VitaTrack should feel trustworthy and calm — not sterile like a hospital form, not playful like a fitness app. The visual language communicates authority (for emergencies) and warmth (for daily logging).
 
 **Key principles:**
 - **Clarity over decoration** — every element has a purpose
@@ -38,7 +38,7 @@
 ### 3.1 Splash Screen
 
 - Full screen: Primary Teal (#1A5F7A) background
-- PulseSense logo fades in + scales from 0.85 → 1.0 (spring animation, 600ms)
+- VitaTrack logo fades in + scales from 0.85 → 1.0 (spring animation, 600ms)
 - Tagline fades in below logo (300ms delay): "Your personal health companion"
 - Transitions out with a fade → Home or Onboarding (1.8s total)
 
@@ -348,7 +348,7 @@
 
 ## 6. Logo Concept
 
-**Name:** PulseSense  
+**Name:** VitaTrack  
 **Symbol:** A simplified ECG pulse wave integrated into a heart shape, or a clean heartbeat line with a subtle circular frame — conveys health monitoring without being too clinical.  
 **Color:** Primary Teal (#1A5F7A) on white, or white on teal for dark backgrounds.  
 **Typography:** "Pulse" in medium weight, "Sense" in light weight — same font (Inter), no serif.  

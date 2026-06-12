@@ -1,4 +1,4 @@
-// PulseSense — Color System
+// VitaTrack — Color System
 // Based on UI Design Guide v1.0 — Extended with atmosphere tokens
 
 export const colors = {

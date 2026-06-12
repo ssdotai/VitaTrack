@@ -1,4 +1,4 @@
-// PulseSense — Emergency Rule Engine
+// VitaTrack — Emergency Rule Engine
 // Pure TypeScript function — no external dependencies
 // Evaluates symptom flags + optional vitals and returns sorted rule results
 

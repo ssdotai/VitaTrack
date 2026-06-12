@@ -1,4 +1,4 @@
-// PulseSense — Theme Store (Zustand)
+// VitaTrack — Theme Store (Zustand)
 // Manages dark mode state and persists preference to SQLite settings table
 
 import { create } from 'zustand';

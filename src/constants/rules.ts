@@ -1,4 +1,4 @@
-// PulseSense — Emergency Rule Definitions
+// VitaTrack — Emergency Rule Definitions
 // Each rule maps to a specific emergency pathway
 
 export type SeverityLevel = 'EMERGENCY_NOW' | 'URGENT_SAME_DAY' | 'MONITOR_CLOSELY' | 'LOG_ONLY';

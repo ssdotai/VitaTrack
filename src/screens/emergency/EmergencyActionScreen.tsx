@@ -1,4 +1,4 @@
-// PulseSense — Emergency Action Screen
+// VitaTrack — Emergency Action Screen
 // Shows severity banner, trigger details, action steps, quick actions
 
 import React, { useEffect, useState, useCallback } from 'react';

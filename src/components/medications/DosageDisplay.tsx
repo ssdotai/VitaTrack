@@ -1,4 +1,4 @@
-// PulseSense — Dosage Display Component
+// VitaTrack — Dosage Display Component
 // Renders 1-0-1 with M/A/N labels
 
 import React from 'react';

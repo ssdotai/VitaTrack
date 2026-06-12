@@ -187,7 +187,7 @@ describe('pdfTemplates', () => {
   describe('wrapHtml', () => {
     it('includes watermark', () => {
       const wrapped = wrapHtml('<div>test</div>');
-      expect(wrapped).toContain('PulseSense');
+      expect(wrapped).toContain('VitaTrack');
       expect(wrapped).toContain('watermark');
     });
 

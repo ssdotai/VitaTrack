@@ -1,4 +1,4 @@
-// PulseSense — Onboarding: Ready Screen
+// VitaTrack — Onboarding: Ready Screen
 
 import React from 'react';
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
@@ -35,7 +35,7 @@ export function ReadyScreen({ onComplete }: ReadyScreenProps) {
           </View>
           <Text style={styles.heading}>You're all set!</Text>
           <Text style={styles.subtext}>
-            PulseSense is ready to use. Your data stays on this device — always.
+            VitaTrack is ready to use. Your data stays on this device — always.
           </Text>
           <View style={styles.privacyNote}>
             <Ionicons name="lock-closed-outline" size={20} color={colors.primary} style={{ marginRight: spacing.space3 }} />
@@ -52,7 +52,7 @@ export function ReadyScreen({ onComplete }: ReadyScreenProps) {
               {disclaimerAccepted && <Ionicons name="checkmark" size={14} color="#FFFFFF" />}
             </View>
             <Text style={styles.disclaimerText}>
-              I understand PulseSense is <Text style={{ fontWeight: '700' }}>not a medical device</Text> and does not provide diagnosis or treatment. In an emergency, I will call emergency services.
+              I understand VitaTrack is <Text style={{ fontWeight: '700' }}>not a medical device</Text> and does not provide diagnosis or treatment. In an emergency, I will call emergency services.
             </Text>
           </TouchableOpacity>
         </View>

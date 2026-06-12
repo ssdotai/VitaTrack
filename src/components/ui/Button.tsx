@@ -1,4 +1,4 @@
-// PulseSense — Button Component
+// VitaTrack — Button Component
 
 import React, { useCallback } from 'react';
 import {

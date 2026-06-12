@@ -1,4 +1,4 @@
-// PulseSense — Pain Slider Component (0-10)
+// VitaTrack — Pain Slider Component (0-10)
 // Color changes live: green (0-3) → amber (4-6) → red (7-10)
 
 import React from 'react';

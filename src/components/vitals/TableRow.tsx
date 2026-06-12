@@ -1,4 +1,4 @@
-// PulseSense — Table Row for History Screen
+// VitaTrack — Table Row for History Screen
 // Alternating row with per-cell status coloring
 
 import React from 'react';

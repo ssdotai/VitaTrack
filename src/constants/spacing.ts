@@ -1,4 +1,4 @@
-// PulseSense — Spacing System (4pt grid)
+// VitaTrack — Spacing System (4pt grid)
 // Based on UI Design Guide v1.0
 
 export const spacing = {

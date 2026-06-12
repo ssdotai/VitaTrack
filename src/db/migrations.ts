@@ -1,4 +1,4 @@
-// PulseSense — Database Migration Runner
+// VitaTrack — Database Migration Runner
 // Runs on each app startup to ensure schema is up to date
 
 import type { SQLiteDatabase } from 'expo-sqlite';

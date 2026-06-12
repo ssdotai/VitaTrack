@@ -52,12 +52,12 @@ describe('backupService module', () => {
 
   it('exports BackupData interface', () => {
     const data: BackupData = {
-      appName: 'PulseSense',
+      appName: 'VitaTrack',
       schemaVersion: 2,
       exportedAt: '2026-01-01T00:00:00.000Z',
       tables: {},
     };
-    expect(data.appName).toBe('PulseSense');
+    expect(data.appName).toBe('VitaTrack');
     expect(data.schemaVersion).toBe(2);
   });
 });

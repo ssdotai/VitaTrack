@@ -1,4 +1,4 @@
-// PulseSense — Allergies Queries
+// VitaTrack — Allergies Queries
 
 import type { SQLiteDatabase } from 'expo-sqlite';
 
